@@ -2,6 +2,9 @@
 
 A support-ticket triage agent for the **NVIDIA x Nebius Global AI Hackathon** (Best Apps and Agents track).
 
+**Live demo:** [ticket-triage-copilot-9huk.vercel.app](https://ticket-triage-copilot-9huk.vercel.app)
+**Backend API:** [ticket-triage-backend.onrender.com](https://ticket-triage-backend.onrender.com)
+
 Every incoming ticket flows through a **tiered NVIDIA Nemotron 3 pipeline** served on **Nebius Token Factory**:
 
 ```
