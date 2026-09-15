@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: ticket-triage-backend
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m app.seed && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: NEBIUS_API_KEY
+        sync: false
+      - key: NEBIUS_BASE_URL
+        value: https://api.tokenfactory.nebius.com/v1/
+      - key: MODEL_NANO
+        value: nvidia/nemotron-3-nano-30b-a3b
+      - key: MODEL_SUPER
+        value: nvidia/nemotron-3-super-120b-a12b
+      - key: MODEL_ULTRA
+        value: nvidia/nemotron-3-ultra-550b-a55b
+      - key: MODEL_EMBEDDING
+        value: BAAI/bge-en-icl
+      - key: MOCK_MODE
+        value: "false"
+      - key: DATABASE_URL
+        value: sqlite:///./triage.db

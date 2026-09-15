@@ -1,0 +1,62 @@
+[
+  {
+    "subject": "Charged twice for my annual plan",
+    "body": "I just noticed two identical charges of $299 on my card this morning for my annual subscription. I only have one account. Please refund the duplicate ASAP, this is frustrating.",
+    "customer_email": "priya.k@example.com"
+  },
+  {
+    "subject": "Can't log in, locked out for an hour",
+    "body": "I've tried resetting my password three times and I'm still locked out. It's been over an hour. I need to access my dashboard for a client meeting in 20 minutes.",
+    "customer_email": "marcus.d@example.com"
+  },
+  {
+    "subject": "Someone accessed my account from a country I've never been to",
+    "body": "I got a login alert email from Lagos, Nigeria but I've never left the US. I think my account has been compromised. Please help immediately, I'm worried about my data.",
+    "customer_email": "jenna.w@example.com"
+  },
+  {
+    "subject": "Getting constant 429 errors from the API",
+    "body": "Our production integration has been throwing 429 rate limit errors every few minutes since this morning, even though our traffic hasn't changed. We're on the Pro plan. This is affecting our customers right now.",
+    "customer_email": "dev-team@acmeinc.example"
+  },
+  {
+    "subject": "Package still not delivered after 3 weeks",
+    "body": "I ordered on the 20th with standard shipping and it's been 3 weeks with no movement on the tracking page, just stuck at 'in transit'. This is honestly ridiculous, I want a refund or a reship.",
+    "customer_email": "oliver.t@example.com"
+  },
+  {
+    "subject": "How do I delete my account and all my data?",
+    "body": "I'd like to permanently delete my account and all associated personal data. Can you tell me the process and how long it will take?",
+    "customer_email": "sam.r@example.com"
+  },
+  {
+    "subject": "Feature request: dark mode for the dashboard",
+    "body": "Would be great if the dashboard had a dark mode option, especially for late-night work. Not urgent, just a nice-to-have suggestion whenever you get a chance.",
+    "customer_email": "lin.z@example.com"
+  },
+  {
+    "subject": "Cancelling my subscription",
+    "body": "I want to cancel my monthly subscription. Honestly the main reason is that the export-to-CSV feature has been broken for two weeks and nobody responded to my last email.",
+    "customer_email": "carla.m@example.com"
+  },
+  {
+    "subject": "Invoice download not working",
+    "body": "I'm trying to download last month's invoice from the billing page for our accounting records but the download button just spins forever. Not urgent but I do need it by end of week.",
+    "customer_email": "finance@brightpath.example"
+  },
+  {
+    "subject": "Thanks for the quick fix last week!",
+    "body": "Just wanted to say the support team resolved my API timeout issue really fast last week. One small follow-up: is there a way to get notified before rate limits are about to be hit?",
+    "customer_email": "devon.k@example.com"
+  },
+  {
+    "subject": "Lost my 2FA device, can't get in",
+    "body": "My phone with the authenticator app broke and I can't log in anymore. I have access to my recovery email though. How do I regain access?",
+    "customer_email": "ana.p@example.com"
+  },
+  {
+    "subject": "International order stuck in customs",
+    "body": "My order to Germany has been sitting in customs for 10 days according to the tracking page. Is there anything you can do or should I just wait?",
+    "customer_email": "hans.g@example.com"
+  }
+]
